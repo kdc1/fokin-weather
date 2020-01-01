@@ -1,8 +1,15 @@
 import React from "react";
-import { View, Text, StyleSheet } from "react-native";
+import { View, Text, StyleSheet, StatusBar } from "react-native";
 import PropTypes from "prop-types";
+import {LinearGradient} from "expo-linear-gradient";
 import { MaterialCommunityIcons } from "@expo/vector-icons";
 
+const weatherOptions = {
+    Haze: {
+        iconName: "weather-hail",
+        gradient: ["#4DA0B0", "#D39D38"]
+    }
+}
 
 export default function Weather({ temp }){
     return (
