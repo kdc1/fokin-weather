@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Fokin Weather App",
-    "slug": "fokin-weather",
+    "name": "Fokin Weather App study",
+    "slug": "fokin-weather-study",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -25,6 +25,8 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/kdc1/fokin-weather"
   }
 }
